@@ -26,13 +26,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.btn:hover, .btn:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-
-
 .header {
     background: #fff;
     width: 100%;
@@ -51,11 +44,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
     background: #fff;
-    overflow: hidden;
     display: block;
     width: 100%;
     height: 55px;
-    box-shadow: 0px 2px 10px 1px rgb(0,0,0,0.05);
+    box-shadow: 1px 0px 0px 1px rgb(242,242,242);
 }
 
 
@@ -67,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li {
     display: inline;
     padding-left: 30px;
-    padding: 2px 20px;
+    padding: 2px 0px 0px 48px;
 }
 
 
@@ -79,49 +71,114 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
     display: block;
-    width: 100%;
-    height: 450px;
-    padding-top: 55px;
+    padding-top: 40px;
 }
 
 
 .main-container {
-    background: #eee;
-    width: 43%;
-    height: 10px;
-    border-radius: 10px;
+    background: #fff;
+    width: 100%;
 }
 
 
 .title-main {
-    padding-left: 70px;
-    color: #313131;
+    padding: 24px 0px 15px 40px;
 }
 
 
 .main h1 {
-    font-size: 24px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #313131;
 }
 
 
 .section-one {
-    width: 30%;
+    width: 100%;
+    height: 340px;
+    background: #f2f2f2;
     padding-top: 30px;
 }
 
 
-.section-container {
+.section-container-one{
     padding-left: 40px;
+    width: 560px;
+    height: 315px;
 }
 
 
+.section-two {
+   display: block;
+   width: 100%;
+}
+
+.section-container-two {
+    display: block;
+    padding: 30px 0px 0px 20px;
+}
 
 
+.box {
+    display: block;
+    width: 770px;
+    height: 370px;
+    padding-top: 30px;
+}
 
 
+.box-container {
+    display: flex;
+    width: 670px;
+    height:370px ;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    padding-left: 10px;
+}
 
 
+.box-img {
+    width: 210px;
+    height: 200px ;
+    padding-top: 10px;
+}
 
+
+.box-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.box-text h3 {
+    font-size: 17px;
+    padding: 0px 0px 10px 0px;
+}
+
+
+.box-text p {
+    font-size: 14px;
+}
+
+
+.boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+}
+
+
+.btn-more {
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: #f2f2f2 solid;
+    padding: 10px;
+}
 
 
 
