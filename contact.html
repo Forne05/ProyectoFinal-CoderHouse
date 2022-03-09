@@ -27,20 +27,38 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Contactanos</h1>
-    <form id="from">
-        <label for="name">Ingrese su nombre:</label>
-        <input type="text" name="nombre" placeholder="" id="nombre" required>
-        <label for="email">Ingrese su email:</label>
-        <input type="email" name="correo" placeholder="ejemplo@gmail.com" id="correo" required>
-        <label for="mensaje">Ingrese su mensaje:</label>
-        <textarea name="mensaje" cols="30" rows="10" placeholder="Hola, quisiera info." id="mensaje" required></textarea>
-        <input type="submit" id="button" value="Enviar">
-    </form>
+    <main class="main">
+        <div class="main-container">
+            <div class="title-main"> 
+                 <h1>Contactanos</h1>
+            </div>
+            <section class="section-from">
+                <form class="from">
+                    <p>Complete el siguiente formulario para poder comunicarse con nosotros</p>
+                    <div class="container-from">
+
+                        <div class="from-name">
+                            <label class="label-name">Ingrese su nombre y apellido:</label>
+                            <input type="text" name="name" placeholder="Santiago Fornerino" class="inpt-name" required="Completar">
+                        </div>
+                        <div class="from-email">
+                            <label class="label-email">Ingrese su email</label>
+                            <input type="email" name="email" placeholder="ejempplo@gmail.com" class="inpt-email" required=""> 
+                        </div>
+                        <div class="from-message">
+                            <label class="label-message">Ingrese su mensaje</label>
+                            <input type="message" name="message" placeholder="Hola, quisiera info" class="inpt-message" required="">
+                        </div>
+                        <div class="from-btn">
+                            <input type="button" class="sumit-btn" value="Enviar">
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div> 
     </main>
 </body>
-<footer>
-    <h3>Este trabajo tiene una licencia, aviso Legal, politica de privacidad, plitica de cookies, términos y condiciones de venta.</h3>
+<footer class="footer">
+    <p>Este trabajo tiene una licencia, aviso legal, politica de privacidad, politica de cookies, términos y condiciones de venta.</p>
 </footer>
 </html>
