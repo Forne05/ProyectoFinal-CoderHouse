@@ -1,0 +1,23 @@
+{
+  "name": "proyectofinal-coderhouse",
+  "version": "1.0.0",
+  "description": "HTML5 CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forne05/ProyectoFinal-CoderHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Forne05/ProyectoFinal-CoderHouse/issues"
+  },
+  "homepage": "https://github.com/Forne05/ProyectoFinal-CoderHouse#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
