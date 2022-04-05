@@ -1,8 +1,8 @@
 # ProyectoFinal-CoderHouse
 
-#Tecnologias
+# Tecnologias
 HTML5 CSS
 
 
-#Autor
+# Autor
 Santiago Fornerino
