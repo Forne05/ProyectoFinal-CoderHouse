@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Oswald:wght@200&display=swap');
+.section-bg {
+  background-color: #f3f3f3;
+}
+
+.section-title  {
+  text-align: center;
+  padding: 30px;
+}
+
+.section-title  h2 {
+  margin: 15px 0 0 0;
+  font-size: 30px;
+  color: #5f5950;
+  font-family: 'Lato', sans-serif;
+}
+
+.section-title p {
+  margin: 15px auto 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Open sans', sans-serif;
+}
+
+
+.section-subtitle{
+  text-align: center;
+  padding: 40px 50px 20px;
+}
+
+.section-subtitle  h2 {
+  font-size: 25px;
+  margin: 10px 0 0 0 ;
+  color: #5f5950;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.section-subtitle p {
+  margin: 15px auto 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Open sans', sans-serif;
+}

@@ -1,67 +1,45 @@
-@media (min-width: 560px) and (max-width: 1199.98px) {
 
-    .navbar-toggler {
-      background: #000;
-      border: none;
-      padding: 10px 6px;
-      outline: none;
+    @media (max-width: 768px) {
+      .carousel h2 {
+        font-size: 28px;
+      }
     }
   
-    .navbar-toggler span {
-      display: block;
-      width: 22px;
-      height: 2px;
-      border: 1px;
-      background: #fff;
+    @media (min-width: 1024px) {
+      .section-title p {
+        width: 50%;
+      }
+    }
+
+    @media (min-width: 1024px) {
+  
+      .carousel .carousel-control-prev,
+      .carousel .carousel-control-next {
+        width: 5%;
+      }
+  
     }
   
-    .navbar-toggler span+span {
-      margin-top: 4px;
-      width: 18px;
-      margin-left: 4px;
+    @media (max-width: 992px) {
+      .about .member-info {
+        margin-bottom: 110px;
+      }
     }
   
-    .navbar-toggler span+span+span {
-      width: 10px;
-      margin-left: 4px;
+    @media (min-width: 1024px) {
+      .about .member-info {
+        background-attachment: fixed;
+      }
     }
-  
-    .navbar-nav button {
-      padding: 1.2rem;
+
+    @media (max-width: 992px) {
+      .chefs .member {
+        margin-bottom: 110px;
+      }
     }
-  
-    .icon__nav {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    
+    @media (min-width: 1024px) {
+      .chefs {
+        background-attachment: fixed;
+      }
     }
-  
-    .navbar-nav .btn {
-      background-color: #3c3c33;
-      color: #fff;
-      border-radius: 0;
-      padding: 1rem 1.5rem;
-      font-size: 1.2rem;
-      margin-top: -10px;
-    }
-  
-    .carousel-item {
-      height: 100vh;
-      min-height: 300px;
-      background: no-repeat scroll center scroll;
-      -webkit-background-size: cover;
-      background-size: cover;
-    }
-  
-    .carousel-item::before {
-      display: block;
-      content: "";
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      position: absolute;
-      background: #323233;
-      opacity: 0.4;
-    }
-  }
